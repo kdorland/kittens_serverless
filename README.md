@@ -9,4 +9,4 @@ The technology stack resembles MERN but without express.js:
 
 The application does very little on it's own, but the project demonstrates how you can structure a simple serverless application for deployment.
 
-Example of the app running on Heroku: https://krdo-kittens.netlify.com/
+Example of the app running on Netlify: https://krdo-kittens.netlify.com/
