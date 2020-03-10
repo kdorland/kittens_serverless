@@ -1,4 +1,4 @@
-# MERN Heroku Example
+# Serverless React app for Netlify
 
 This is a small template for building serverless React apps based on "Create React App" and Netlify Functions (AWZ Lambda Functions).
 
