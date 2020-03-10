@@ -17,11 +17,10 @@ export async function handler(event, context) {
     // Don't wait for everything to finish. Just return this callback.
     context.callbackWaitsForEmptyEventLoop = false;
 
-    const kittens = await kittenDB.getKittens();
-    console.log("kittens", kittens);
+    await kittenDB.bootstrap();
 
     return {
         statusCode: 200,
-        body: JSON.stringify(kittens)
+        body: JSON.stringify({msg: "Kittens have been bootstrapped."})
     };
 }
