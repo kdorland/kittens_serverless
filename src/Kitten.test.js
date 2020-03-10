@@ -13,7 +13,7 @@ const kitten = {
 it('renders the name of the kitten', () => {
     const comp = <Kitten getKitten={_ => kitten}/>;
     const {getByText} = render(comp);
-    expect(getByText("Popeye")).toBeInTheDocument();
+    expect(getByText(kitten.name)).toBeInTheDocument();
 });
 
 it('renders the "Hobbies" header', () => {
